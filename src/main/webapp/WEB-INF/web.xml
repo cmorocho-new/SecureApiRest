@@ -10,7 +10,7 @@
 	</welcome-file-list>
 	
 	<!-- FILTRO DE SEGURIDAD -->
-	<filter>
+	<!-- filter>
 		<filter-name>Secure Filter</filter-name>
 		<filter-class>app.code.SecureFilter</filter-class>
 	</filter>
@@ -21,7 +21,7 @@
 		<dispatcher>FORWARD</dispatcher>
 		<dispatcher>REQUEST</dispatcher>
 		<dispatcher>ERROR</dispatcher>
-	</filter-mapping>
+	</filter-mapping-->
 	
 	<!-- DURACION DE LA SESSION -->
 	<session-config>

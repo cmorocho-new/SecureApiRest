@@ -9,7 +9,7 @@ import app.code.controller.UsuarioDAO;
 import app.code.modelo.UsuarioDTO;
 
 @Stateless
-public class GestionUsuarioON{
+public class GestionUsuarioON {
 	
 	@Inject
 	private UsuarioDAO usuarioDAO;
